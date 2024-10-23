@@ -31,7 +31,7 @@ export default function Header({children}) {
                         </select>
                         <button className='hover:bg-blue-500 p-2 text-white bg-blue-900 w-[25%]'>Search</button>
                     </div>
-                    <PassportAnimation></PassportAnimation>
+                    {/* <PassportAnimation></PassportAnimation> */}
                 </div>
             </div>
             
