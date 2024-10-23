@@ -27,11 +27,7 @@ export default function Services() {
     };    
     return (
         <div className='relative w-full'>
-<<<<<<< HEAD
-            <div className='bg-white -mt-[260px] top-0 max-md:-mt-[10px] py-10 px-10'>
-=======
             <div className='bg-white -mt-[310px] top-0 md:-top-[290px] py-10 px-10'>
->>>>>>> b45b8847a9204cb3fde223eb62bd08093a81d75b
                 <h2 className='text-center text-3xl md:text-4xl py-2 font-madimi-one capitalize'>Our Services</h2>
                 <div className="py-4 text-justify slider-container">
                     <Slider {...settings}>
