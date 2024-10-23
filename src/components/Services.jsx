@@ -1,27 +1,42 @@
 import React from 'react'
 import Slider from 'react-slick'
+import Card from './Card';
+
+
 
 export default function Services() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 3000, 
+        responsive: [
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+                }
+            },
+        ],
     };    
     return (
         <div className='relative w-full'>
-            <div className='bg-white -mt-[260px] top-0 md:-top-[290px] py-10 px-10'>
+            <div className='bg-white -mt-[260px] top-0 max-md:-mt-[10px] py-10 px-10'>
                 <h2 className='text-center text-3xl md:text-4xl py-2 font-madimi-one capitalize'>Our Services</h2>
                 <div className="py-4 text-justify slider-container">
                     <Slider {...settings}>
-                        <div className="px-1"><div className='bg-gray-200 rounded-md  border py-4 px-4'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui dolor tempora laudantium corporis ipsam similique, minima fuga cupiditate dolores quae provident dolorum! Impedit enim, veniam velit eaque odio autem.</p></div></div>
-                        <div className="px-1"><div className='bg-gray-200 rounded-md  border py-4 px-4'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui dolor tempora laudantium corporis ipsam similique, minima fuga cupiditate dolores quae provident dolorum! Impedit enim, veniam velit eaque odio autem.</p></div></div>
-                        <div className="px-1"><div className='bg-gray-200 rounded-md  border py-4 px-4'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui dolor tempora laudantium corporis ipsam similique, minima fuga cupiditate dolores quae provident dolorum! Impedit enim, veniam velit eaque odio autem.</p></div></div>
-                        <div className="px-1"><div className='bg-gray-200 rounded-md  border py-4 px-4'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui dolor tempora laudantium corporis ipsam similique, minima fuga cupiditate dolores quae provident dolorum! Impedit enim, veniam velit eaque odio autem.</p></div></div>
-                        <div className="px-1"><div className='bg-gray-200 rounded-md  border py-4 px-4'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui dolor tempora laudantium corporis ipsam similique, minima fuga cupiditate dolores quae provident dolorum! Impedit enim, veniam velit eaque odio autem.</p></div></div>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
                     </Slider>
                 </div>
             </div>
