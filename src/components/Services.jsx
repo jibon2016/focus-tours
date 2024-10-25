@@ -28,7 +28,7 @@ export default function Services() {
     return (
         <div className='relative w-full'>
             <div className='bg-white -mt-[310px] top-0 md:-top-[290px] py-10 px-10'>
-                <h2 className='text-center text-3xl md:text-4xl py-2 font-madimi-one capitalize'>Our Services</h2>
+                <h2 className='text-center text-3xl md:text-4xl py-2 font-madimi-one capitalize'>Our New Services</h2>
                 <div className="py-4 text-justify slider-container">
                     <Slider {...settings}>
                         <Card/>
