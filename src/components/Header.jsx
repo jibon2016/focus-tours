@@ -2,7 +2,6 @@ import Lottie from 'lottie-react'
 import Airplane from './../assets/Animation - 1727364271751.json'
 import { useRef } from 'react'
 import Navbar from './Navbar'
-import PassportAnimation from './PassportAnimation'
 
 export default function Header({children}) {
     const airoplaneRef = useRef(null)
@@ -31,7 +30,6 @@ export default function Header({children}) {
                         </select>
                         <button className='hover:bg-blue-500 p-2 text-white bg-blue-900 w-[25%]'>Search</button>
                     </div>
-                    {/* <PassportAnimation></PassportAnimation> */}
                 </div>
             </div>
             
