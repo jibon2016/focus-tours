@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import Card from './Card';
-import PassportAnimation from './PassportAnimation';
-import FlightTicket from './FlightTicket';
+import PassportAnimation from './animation/PassportAnimation';
+import FlightTicket from './animation/FlightTicket';
 
 
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import flightTicket from '../assets/Flight_ticket.json'
+import flightTicket from '../../assets/Flight_ticket.json'
 import Lottie from 'lottie-react'
 export default function FlightTicket() {
   const flightRef = useState(null)
