@@ -11,7 +11,7 @@ export default function PassportAnimation() {
               passportRef?.current?.setSpeed(0.5)
           }}
           animationData={passprot}
-      />g
+      />
   </div>
   )
 }
